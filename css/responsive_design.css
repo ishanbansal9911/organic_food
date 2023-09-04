@@ -1,0 +1,94 @@
+/* Media Query 1199px */
+@media screen and (max-width:1199px) {
+    /* General CSS */
+    .section-subtitle {
+        max-width: 60%;
+    }
+    /* navbar css */
+    .header .navbar{
+        background-size: cover;
+        margin-top: 1rem;
+        border-radius: 2rem;
+    }
+    .header .navbar .navbar-nav .nav-item{
+        margin: 0px -0.5rem;
+    }
+    /*  Banner Section */
+    .banner_section .carousel-item {
+        height: 90vh;
+    }
+    
+}
+/* Media Query 991px */
+@media screen and (max-width:991px){
+    /* 01 Navbar CSS */
+    .header .navbar{
+        background-size: cover;
+    }
+    .header .navbar .contact-info span{
+        margin-left: 1.7rem;
+        font-size: 1.8rem;
+        margin-top: 0.6rem;
+    }
+    .header .navbar .contact-info .phone-no{
+        margin-top: -0.2rem;
+    }
+    /* General CSS */
+    .about .banner_section,
+    .product .banner_section,
+    .Gallery .banner_section,
+    .contact .banner_section {
+        padding-top: 12.5rem;
+        padding-bottom: 3rem;
+    }
+}
+/* Media Query 767px */
+@media (max-width:767px) {
+
+    /* General CSS */
+    body,
+    html {
+        font-size: 10px;
+    }
+
+    .section-subtitle {
+        max-width: 80%;
+    }
+
+    /* 02 Banner Section */
+    .banner_section {
+        min-height: 50vh;
+    }
+
+    .banner_section .carousel-item {
+        height: 50vh;
+    }
+    
+}
+
+/* Media Query 590px */
+@media (max-width:590px) {
+
+    /* General CSS */
+    body,
+    html {
+        font-size: 10px;
+    }
+    .about .about-content{
+        padding: 0 1.25rem;
+    }
+    
+}
+/* Media Query 590px */
+@media (max-width:465px) {
+
+    /* General CSS */
+    body,
+    html {
+        font-size: 8px;
+    }
+    .banner-section .carousel-caption p{
+        font-size: 1.7rem;
+    }
+    
+}
